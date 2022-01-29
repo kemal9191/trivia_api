@@ -198,7 +198,7 @@ DELETE ...
   "total_questions": 20
 }
 ```
-### DELETE '/questions/<int:question_id>'
+### DELETE '/questions/\<int:question_id>\'
 * General: It finds question based on question id given, then deletes it from db.
 * Request Arguments: int:question_id
 * Sample Response:
@@ -252,7 +252,7 @@ DELETE ...
 }
 ```
 
-### GET '/questions/<int:category_id>/qıestions'
+### GET '/questions/\<int:category_id>/questions\'
 * General: It returns all available questions for given category id.
 * Request Arguments: category_id:int
 * Sample Response:
